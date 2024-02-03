@@ -55,7 +55,7 @@ window.onload = function () {
     createRocks();
 
     requestAnimationFrame(update);  // each 10ms this update will be called once
-    setInterval(createRocks, 5000); // every 5 seconds
+    setInterval(createRocks, 14000); // every 5 seconds
     document.addEventListener("keydown", moveShip);
 };
 
